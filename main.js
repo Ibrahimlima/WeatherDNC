@@ -27,15 +27,10 @@ async function getForecast(){
             }
             
         }
-        /*document.getElementById('temp').value = data.logradouro;*/
+        
     }
     catch(error){
         console.log(error)
     }
 }
 
-
-
-
-/*-- -51.16451870075153 */
-/*-- -30.01642416634016 */
