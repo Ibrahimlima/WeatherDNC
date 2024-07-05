@@ -24,20 +24,20 @@
             <img src="img/weather.svg" alt="Erro">
         </div>
         <div class="banner_form">
-            <form id="form" class="form" action="https://formspree.io/f/mqazkgrp" method="post">
+            <form id="form" class="form" action="https://api.sheetmonkey.io/form/4ipPGqNRXqxYimDoLrEBRb" method="post">
                 <label for="name">Nome Completo:</label>
-                <input type="text" required name="name" id="name" placeholder="Insira seu nome completo:">
+                <input type="text" required name="Name" id="name" placeholder="Insira seu nome completo:">
                 <label for="email">E-mail:</label>
-                <input type="email" required name="email" id="email"  placeholder="Insira seu e-mail">
+                <input type="email" required name="Email" id="email"  placeholder="Insira seu e-mail">
                 <label for="cep">Digite o CEP:</label>
-                <input type="number" required name="cep" id="cep" placeholder="Insira o CEP">
+                <input type="number" required name="Cep" id="cep" placeholder="Insira o CEP">
                 <label for="LatLong">Digite a latitude e longitude para saber a previsão:</label>
                 <div name="LatLong" id="latLong">
-                    <input type="number"  name="lat" id="lat">
-                    <input type="number"  name="long" id="long">
+                    <input type="number" step="any" name="Lat" id="lat" placeholder="Insira a Latitude">
+                    <input type="number" step="any" name="Long" id="long" placeholder="Insira a Longitude">
                 </div>
                 <div class="banner_button">
-                <button class="button" type="button" onclick="getAddressByCep(); getForecast()">Acessar</button>
+                <button class="button" type="button; submit" onclick="getAddressByCep(); getForecast()">Acessar</button>
                 </div>
             </form>
         </div>
